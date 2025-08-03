@@ -1,0 +1,57 @@
+Card ID,Card Name,Card URL,Card Description,Labels,Members,Due Date,Attachment Count,Attachment Links,Checklist Item Total Count,Checklist Item Completed Count,Vote Count,Comment Count,Last Activity Date,List ID,List Name,Board ID,Board Name,Archived,Start Date,Due Complete
+688f3e451de6058c01aee7b9,XYZ Employee,https://trello.com/c/OFoHHWrW/2-xyz-employee,,,,,0,,0,0,0,0,2025-08-03T10:47:46.659Z,688f3b8190bdf95897ebbf30,To Review,688f3b8190bdf95897ebbeeb,SauceDemo - Bug Tracking,FALSE,,No Due Date
+688f3d89fc84325b8212a4c0,Login fails with locked user,https://trello.com/c/4G2t2mRj/1-login-fails-with-locked-user,,,,,1,https://trello.com/1/cards/688f3d89fc84325b8212a4c0/attachments/688f3dee80a50456e849306b/download/b1.PNG,0,0,0,0,2025-08-03T10:46:07.210Z,688f3b8190bdf95897ebbf31,Bug Found,688f3b8190bdf95897ebbeeb,SauceDemo - Bug Tracking,FALSE,,12/3/2025
+688f3e79f81bf0ac68b651f7,Sorting Filter Not Resetting,https://trello.com/c/BgTLbPzw/3-sorting-filter-not-resetting,"Sorting filter does not reset when returning to inventory`
+
+Steps to Reproduce:
+
+1. Go to inventory page
+2. Change sorting to ""Price (low to high)""
+3. Click a product to view its details
+4. Click back to return to inventory
+
+Expected Result:
+Sorting should reset to default (""Name: A to Z"")
+
+Actual Result:
+Sorting still shows ""Price (low to high)""
+
+Severity:  Low
+Status: To Review
+
+![b2.PNG](https://trello.com/1/cards/688f3e79f81bf0ac68b651f7/attachments/688f3f056a702ff2ea55b83c/download/b2.PNG)",,,,1,https://trello.com/1/cards/688f3e79f81bf0ac68b651f7/attachments/688f3f056a702ff2ea55b83c/download/b2.PNG,0,0,0,0,2025-08-03T10:50:52.079Z,688f3b8190bdf95897ebbf31,Bug Found,688f3b8190bdf95897ebbeeb,SauceDemo - Bug Tracking,FALSE,,15/03/2025
+688f3fe2a08235bd938ba194,Menu Not Closing After Navigation,https://trello.com/c/j8wmIuY6/4-menu-not-closing-after-navigation,"Side menu stays open after clicking All Items�
+
+Steps to Reproduce:
+
+1. Log in with `standard_user`
+2. Click the top-left hamburger menu (≡)
+3. Click All Items
+
+Expected Result:
+Menu should close and page should refresh or stay on inventory
+
+Actual Result:
+Menu remains open  user has to manually close it
+
+Severity: Low
+Type: Usability / UI Bug
+
+![b3.PNG](https://trello.com/1/cards/688f3fe2a08235bd938ba194/attachments/688f40211864984ae4295230/download/b3.PNG)",,,,1,https://trello.com/1/cards/688f3fe2a08235bd938ba194/attachments/688f40211864984ae4295230/download/b3.PNG,0,0,0,0,2025-08-03T10:55:35.901Z,688f3b8190bdf95897ebbf31,Bug Found,688f3b8190bdf95897ebbeeb,SauceDemo - Bug Tracking,FALSE,,20/03/2025
+688f413ccb7329816413914a,Reset App State Doesn’t Clear Sort Option,https://trello.com/c/fs2cJJMp/5-reset-app-state-doesnt-clear-sort-option," Sort option stays after “Reset App State”
+
+Steps to Reproduce:
+
+1. Sort products by “Price (high to low)”
+2. Open side menu and click “Reset App State”
+
+Expected Result:
+Cart clears and sort resets to default
+
+Actual Result:
+Cart clears, but sort stays as “Price (high to low)”
+
+Severity: Medium
+Type: Functional / State Management
+
+![b4.PNG](https://trello.com/1/cards/688f413ccb7329816413914a/attachments/688f417ee74ccfcb4960fa99/download/b4.PNG)",,,,1,https://trello.com/1/cards/688f413ccb7329816413914a/attachments/688f417ee74ccfcb4960fa99/download/b4.PNG,0,0,0,0,2025-08-03T11:01:32.779Z,688f3b8190bdf95897ebbf31,Bug Found,688f3b8190bdf95897ebbeeb,SauceDemo - Bug Tracking,FALSE,,28/03/2025
