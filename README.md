@@ -82,29 +82,23 @@ Open a terminal inside the `Automation/` folder and run:
 ```bash
 npm init -y
 npm install selenium-webdriver
-3. Run a Test Script
+```
+
+## 3. Run a Test Script
+
 To run, for example, the Login test:
 
-bash
-Copy
-Edit
+```bash
 node login.test.js
+```
+
 Chrome will launch, simulate the login process, and close.
 
-Repeat the above command for each script file (e.g., addtocart.test.js, Wrongpass.test.js, etc.)
+Repeat the above command for each script file (e.g., `addtocart.test.js`, `Wrongpass.test.js`, etc.)
 
-🔗 Live Website Under Test
-SauceDemo.com
+🔗 Live Website Under Test  
+[SauceDemo.com](https://www.saucedemo.com)
 
-yaml
-Copy
-Edit
-
----
-
-## ✅ Now, the **completely separated Author section**:
-
-```markdown
 ---
 
 🙋 Author  
@@ -112,4 +106,4 @@ Muhammad Noor Ul Huda
 Aspiring SQA Engineer | Entry-Level Tester  
 📍 Pakistan  
 
-⭐ If this project helped you learn something, feel free to star it or fork it to build your own version.
+⭐ If this project helped you learn something, feel free to star it or fork it to build your own version!
